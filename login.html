@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Login to Let's Chat</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="login.css">
+        <script src="login.js"></script>
+    </head>
+    <body>
+        <div class="col-lg-20 col-sm-20 col-xs-20" id="image_div">
+            <img src="https://thumbs.dreamstime.com/b/chatting-chatbot-smart-phone-online-conversation-texting-message-flat-vector-concept-85123701.jpg">
+        </div>
+        <div class="col-lg-20 col-sm-20 col-xs-20" id="login_div">
+            <h1>WELCOME TO LET'S CHAT!</h1>
+            <br>
+            <h5>Please login to continue</h5>
+            <br>
+            <div class="col-lg-10 col-sm-10 col-xs-20 login">
+                <br>
+                <h4>User Name:</h4>
+                <div class="input-container">
+                    <i class="fa fa-user"></i>
+                    <input id="username" type="text" placeholder="User Name">
+                </div>
+                <br>
+                <div class="input-container">
+                    <i class="fa fa-lock"></i>
+                    <input id="password" type="password" placeholder="Password">
+                </div>
+                <button onclick="create_account()" id="create_account">Not an user? Create an account now!</button>
+                <br>
+                <br>
+                <button onclick="addUser()" class="btn btn-success" id="button_login">LOGIN</button>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    display: flex;
+    background-color: #ecf0f1;
+}
+#image_div{
+    width: 50%;
+    height: 100%;
+}
+#login_div{
+    width: 48%;
+    height: 100%;
+    margin-right: 2%;
+}
+#image_div img{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 37px;
+    margin-top: 100px;
+}
+h5{
+    font-size: 15px;
+    color: rgb(139, 139, 141);
+}
+.login{
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 60%;
+    height: 27.5%;
+    margin-left: 18%;
+}
+#username{
+    width: 60%;
+    border: 2px solid dodgerblue;
+    padding-left: 7.5px;
+    margin-left: 5px;
+    height: 25px;
+    padding-bottom: 2px;
+}
+#password{
+    width: 60%;
+    border: 2px solid dodgerblue;
+    padding-left: 7.5px;
+    margin-left: 5px;
+    height: 25px;
+    padding-bottom: 2px;
+}
+#create_account{
+    margin-top: 5px;
+    font-size: 12px;
+    color: darkblue;
+    border: none;
+    margin-left: 10px;
+}
+#button_login{
+    width: 55%;
+    margin-left: 10px;
+}
